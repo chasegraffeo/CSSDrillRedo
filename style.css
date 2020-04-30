@@ -1,100 +1,137 @@
-*{
-   text-align: center;
+h1 {
+  text-align: center;
 }
 body {
-    font-family: 'Orbitron', sans-serif;
-    background-color: grey;
-  }
+  font-family: "Orbitron", sans-serif;
+  background-color: grey;
+}
 
 a {
-    text-decoration:none;
-    color: lawngreen;
+  text-decoration: none;
+  color: lawngreen;
 }
 
-a:hover{
-    cursor: pointer;
-    font-weight: bolder;
-    color: orange;
+a:hover {
+  cursor: pointer;
+  font-weight: bolder;
+  color: orange;
 }
 
-span{
-    color: orange;
-    font-weight: bold;
+span {
+  color: orange;
+  font-weight: bold;
 }
 
-.boxes{
-    margin: auto;
-    padding: 2em;
-    border: solid;
-    border-radius: 6em;
-    width: 30em;
-    display: block;
+.boxes {
+  text-align: center;
+  margin: auto;
+  padding: 2em;
+  border: solid;
+  border-radius: 6em;
+  width: 30em;
+  display: block;
 }
 
-#box1{
- background-color: lightgrey;
+#box1 {
+  background-color: lightgrey;
 }
 
-#box2{
-    background-color: slategrey;
-    
-    
+#box2 {
+  background-color: slategrey;
 }
 
-#box3{
-    background-color: lightgrey;
+#box3 {
+  background-color: lightgrey;
 }
 
-#box4{
-    background-color:slategrey;
+#box4 {
+  background-color: slategrey;
 }
 
-.dot{
-    
-    background-color: rgb(3, 93, 93);
-    border-radius: 50px;
+.dot {
+  background-color: rgb(3, 93, 93);
+  border-radius: 50px;
 }
 
-#dot1{
-    height: 30px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    left: 27.4em;
-    top: 4em;
+#dot1 {
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
+
+  top: 4em;
 }
 
-#dot2{
-    height: 30px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    left: 34.4em;
-    top: 20em;
+#dot2 {
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
 
+  top: 20.9em;
 }
 
-#dot3{
-    height: 30px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    left: 29.6em;
-    top: 37em;
+#dot3 {
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
 
+  top: 39.1em;
 }
 
-#dot4{
-    height: 30px;
-    width: 30px;
-    display: block;
-    position: absolute;
-    left: 29.6em;
-    top: 54.4em;
+#dot4 {
+  height: 30px;
+  width: 30px;
+  display: block;
+  position: absolute;
 
-
+  top: 57.3em;
 }
 
-h1{
-    color: orange;
+.original {
+  color: orange;
+}
+
+.additional {
+  color: lawngreen;
+}
+
+#show1 {
+  color: orange;
+}
+
+#show2 {
+  color: lawngreen;
+}
+
+#show3 {
+  color: orange;
+}
+
+#show4 {
+  color: lawngreen;
+}
+
+#show5 {
+  color: orange;
+}
+
+ul {
+  color: lawngreen;
+}
+
+.star {
+  color: orange;
+}
+
+#wars {
+  color: lawngreen;
+}
+
+.li {
+  border: solid;
+  border-radius: 1em;
+  border-width: 2px;
+
 }
