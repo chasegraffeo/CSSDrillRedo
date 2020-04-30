@@ -1,0 +1,100 @@
+*{
+   text-align: center;
+}
+body {
+    font-family: 'Orbitron', sans-serif;
+    background-color: grey;
+  }
+
+a {
+    text-decoration:none;
+    color: lawngreen;
+}
+
+a:hover{
+    cursor: pointer;
+    font-weight: bolder;
+    color: orange;
+}
+
+span{
+    color: orange;
+    font-weight: bold;
+}
+
+.boxes{
+    margin: auto;
+    padding: 2em;
+    border: solid;
+    border-radius: 6em;
+    width: 30em;
+    display: block;
+}
+
+#box1{
+ background-color: lightgrey;
+}
+
+#box2{
+    background-color: slategrey;
+    
+    
+}
+
+#box3{
+    background-color: lightgrey;
+}
+
+#box4{
+    background-color:slategrey;
+}
+
+.dot{
+    
+    background-color: rgb(3, 93, 93);
+    border-radius: 50px;
+}
+
+#dot1{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    left: 27.4em;
+    top: 4em;
+}
+
+#dot2{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    left: 34.4em;
+    top: 20em;
+
+}
+
+#dot3{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    left: 29.6em;
+    top: 37em;
+
+}
+
+#dot4{
+    height: 30px;
+    width: 30px;
+    display: block;
+    position: absolute;
+    left: 29.6em;
+    top: 54.4em;
+
+
+}
+
+h1{
+    color: orange;
+}
